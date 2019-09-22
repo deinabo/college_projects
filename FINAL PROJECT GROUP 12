@@ -1,0 +1,36 @@
+12/06/18
+Valeria Krotova, Deinabo Obiechina (Group 12)
+Business Rules for GCS
+
+	A given employee has one or more skills. Each skill has one or more employees assigned to it.
+
+	A given customer is assigned to a region. A region has one or many customers
+
+
+	A given customer is assigned a one or many projects. Projects can be assigned to only one customer.
+
+	A given employee can manage many projects. A project is managed by one and only one employee.
+
+
+	A given project has many bills, but each bill is assigned by one project.
+
+	A given bill can generate many worklogs, but each worklogs can generate one bill.
+
+
+	A given project is allocated to many tasks but each task is assigned to one project.
+
+	Employee runs many assignments, but assignment can be run only by one employee.
+
+
+	Employee has only one region, but regions can have many employees.
+
+	Assignment can be stored in many worklogs, but worklogs can have only one assignment.
+
+
+	Skill has many Task Skill, but task skill can have only one skill.
+
+	Assignment can be possessed by only one Task Skill, but Task Skill is possessed by many assignments.
+
+
+	Task skill can incorporate one and only one task, but task is incorporated by many task skill
+
